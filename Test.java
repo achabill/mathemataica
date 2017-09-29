@@ -3,10 +3,10 @@ public class Test{
         int r = Mathematica.sum(1,2);
         System.out.println("sum(1,2) : " + r);
 
-        r = Mathematica.Abs(-1);
+        r = Mathematica.abs(-1);
         System.out.println("Abs(-1) : "+ r);
 
-        r = Mathematica.division(4, 2);
+        r = Mathematica.divide(4, 2);
         System.out.println("division(4 , 2) : " + r);
 
         r = Mathematica.power(3, 5);
