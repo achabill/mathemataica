@@ -4,7 +4,7 @@ public class Test{
         System.out.println("sum(1,2) : " + r);
 
         r = Mathematica.Abs(-1);
-        System.out.println("Abs(-1) : "+ k);
+        System.out.println("Abs(-1) : "+ r);
 
         r = Mathematica.division(4, 2);
         System.out.println("division(4 , 2) : " + r);
