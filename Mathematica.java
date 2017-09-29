@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Mathematica{
     public static int sum(int a, int b){
         return a + b;
@@ -24,13 +25,13 @@ public class Mathematica{
         else
             return x * -1;
     }
-    public static int factors(int x){
-        int factor = 0;
+    public static ArrayList<Integer> getfactors(int x){
+        ArrayList<Integer> factors = new ArrayList<Integer>();
         for (int i = 1; i <= x; i++){
             if (x % i == 0){
-                factor = i;
+                factors.add(i);
             }
         }
-        return factor;
+        return factors;
     }
 }
